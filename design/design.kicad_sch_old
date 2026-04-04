@@ -4128,17 +4128,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C87494"
-			(at 40.64 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "ebe93905-943c-4539-b375-6c2fc24bca26")
 		)
@@ -4210,17 +4199,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 87.63 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C87494"
 			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4304,17 +4282,6 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 125.73 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C41407547"
-			(at 125.73 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,17 +4486,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C87494"
-			(at 87.63 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "79948f25-3505-4671-bb8f-b717de76216a")
 		)
@@ -4601,17 +4557,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 40.64 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C87494"
 			(at 40.64 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5073,17 +5018,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C87494"
-			(at 87.63 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "f050424a-70e4-47ba-9ef1-308df4592e90")
 		)
@@ -5156,17 +5090,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 190.5 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C27438"
 			(at 190.5 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5286,17 +5209,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C2286"
-			(at 160.02 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "b6b6c33b-8ffa-4fa4-8595-8e81fb8b36f9")
 		)
@@ -5377,17 +5289,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C23182"
-			(at 149.86 49.53 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "34e8c729-7004-434b-8c02-b0238acad7bc")
 		)
@@ -5459,17 +5360,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 40.64 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C87494"
 			(at 40.64 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5561,17 +5451,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C87494"
-			(at 87.63 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "02911a13-fdf0-4303-97d0-11e2ef2c72fd")
 		)
@@ -5643,17 +5522,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 40.64 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C87494"
 			(at 40.64 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5745,17 +5613,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C87494"
-			(at 40.64 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "702fbcf6-08ac-45c7-a08f-4b91691174b1")
 		)
@@ -5827,17 +5684,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 40.64 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C87494"
 			(at 40.64 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5929,17 +5775,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C87494"
-			(at 40.64 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "72139bc8-139c-4be4-b82a-bb6f541ce7f3")
 		)
@@ -6021,17 +5856,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C87494"
-			(at 87.63 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "b83d9611-c8c5-47a0-951d-88ae0769696f")
 		)
@@ -6103,17 +5927,6 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 40.64 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C87494"
 			(at 40.64 133.35 0)
 			(hide yes)
 			(show_name no)
