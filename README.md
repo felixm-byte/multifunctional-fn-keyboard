@@ -8,3 +8,8 @@ A function keyboard that is also a game controller
 # References
 
 - https://www.youtube.com/watch?v=KaGHxvVnKQ4 (1:24 for display pinout explanation)
+- https://github.com/alastairhm/micropython-st7735 for MicroPython display driver - this library needs to be installed on the Pi Pico
+- https://github.com/micropython/micropython-lib/tree/master/micropython/usb -  MicroPython HID implementation
+
+# External libraries
+- https://github.com/alastairhm/micropython-st7735/tree/main - SPI TFT with ST7735 Driver library for Raspberry Pi Pico Micropython
