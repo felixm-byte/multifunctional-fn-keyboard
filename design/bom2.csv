@@ -1,7 +1,0 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"A1";"RaspberryPi_Pico_Common_Unspecified";1;"RaspberryPi_Pico";;;
-2;"D1";"LED_0603_1608Metric";1;"KT-0603R";;;
-3;"J2, J2";"PinSocket_1x08_P2.54mm_Vertical";2;"Conn_01x08_Socket";;;
-4;"R1";"R_0201_0603Metric";1;"47Ω";;;
-5;"S1, S2";"SW_TS-1088-AR02016";2;"Tactile Button, 160gf";;;
-6;"SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13";"SW_SPST_Omron_B3F-40xx";13;"SW_Push";;;

@@ -76,7 +76,7 @@ def load_mappings():
     global gamepad_mappings
     f = open("mappings.kb", 'rb')
     mappings = pickle.load(f)
-    f = open("gamepadmappings.kb", 'rb')
+    f = open("gamepad_mappings.kb", 'rb')
     gamepad_mappings = pickle.load(f)
 
 def output_keys(ids):
