@@ -10,6 +10,7 @@ A function keyboard that is also a game controller. Switch modes, display button
 - Microcontroller: Pi Pico 2 (definitely compatible with 2W, probably also with original series Picos)
 - all other parts listed with LCSC part numbers in design/bom.csv
 - 3D printed back case (base.stl)
+- 4xM3 12mm (pan-head) screws with hex nuts
 - Total part cost: £10.90 (excluding PCB production and case 3D printing)
 
 # Renders
