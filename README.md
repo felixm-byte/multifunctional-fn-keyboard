@@ -13,7 +13,7 @@ I've always thought a little remappable keyboard would be super useful for input
 # Parts
 - Display: [ST7735 LCD display from Temu](https://www.temu.com/uk/d--1-8-inch-st7735-spi-tft-lcd-display-module-with-a-resolution-of-128160-compatible-with-51-avr--arm-8---g-601101340072644.html)
 - Microcontroller: Pi Pico 2 (definitely compatible with 2W, probably also with original series Picos)
-- Refer to (ibom.html)[design/bom/ibom.html] for interactive bill of materials
+- Refer to [ibom.html](design/bom/ibom.html) for interactive bill of materials
 - all other parts listed with LCSC part numbers in design/production/bom.csv
 - 3D printed back case (base.stl)
 - 4xM3 12mm (pan-head) screws with hex nuts (to attach case)
