@@ -1,5 +1,5 @@
 # multifunctional-fn-keyboard
-A function keyboard that is also a game controller. Switch modes, display button mappings or (soon) cool graphics on the colour display, and connect to any USB device.
+A function keyboard that is also a retro-style game controller. Switch modes, display button mappings or (soon) cool graphics on the colour display, and connect to any USB device. Includes accelerometer/gyroscope for natural-feeling motion controls in games.
 ![a poster explaining features of the device, a photo and text in English and Simplified Chinese](design/docs/poster.png)
 
 Schematic diagram showing the wiring of pins on the Pi Pico.
@@ -11,13 +11,14 @@ Schematic diagram showing the wiring of pins on the Pi Pico.
 I've always thought a little remappable keyboard would be super useful for input in DIY projects, to easily test USB input, and I love the GameCube controller's middle screen and wanted to design games around it, so I decided to build this project to combine those 2 goals. Once I build the physical model, I will test out multi-key input for deeper shortcuts within apps, to make it also work as a function keyboard. This seemed like an attainable project goal when I started, but it's also a fun product I will enjoy using.
 
 # Parts
-- Display: [ST7735 LCD display from Temu, 1.8in display model, verify pin layout before purchasing as pin layouts seem to change and vary within the same listing](https://www.aliexpress.com/item/4000219159401.html#nav-description)
+- Display: [ST7735 LCD display from Aliexpress, "1.8 TFT NO TOUCH" version](https://www.aliexpress.com/item/4000219159401.html)
 - Microcontroller: Pi Pico 2 (definitely compatible with 2W, probably also with original series Picos)
-- Refer to [ibom.html](design/bom/ibom.html) for interactive bill of materials
+- Refer to [ibom.html](design/bom/ibom.html) for interactive bill of materials 
 - all other parts listed with LCSC part numbers in design/production/bom.csv
+- PCB parts: £14.70 (backorder or JLCPCB idle parts) + £3 (display + screws)
 - 3D printed back case (base.stl)
 - 4xM3 12mm (pan-head) screws with hex nuts (to attach case)
-- Total part cost: £10.90 (excluding PCB production and case 3D printing)
+- Total part cost: ~£18 (excluding PCB production and case 3D printing)
 
 # Renders
 ![product side render](design/renders/side.png)
