@@ -1,6 +1,6 @@
 import usb.device
 from usb.device.keyboard import KeyboardInterface, KeyCode, LEDCode
-from machine import Pin,SPI
+from machine import Pin,SPI,I2C
 import time
 import pickle
 from st7735 import TFT
@@ -8,7 +8,9 @@ from st7735 import sysfont
 import math
 import _thread
 import gc
+import mpu6050 as gyro
 
+i2c_gyro = I2C(0, scl=Pin(21), sda=Pin(20), freq=400000)
 spi = SPI(1, baudrate=20000000, polarity=0, phase=0, sck=Pin(10), mosi=Pin(11), miso=None) #mosi is the same as SDA
 tft=TFT(spi,16,17,18)
 tft.initr()
@@ -28,8 +30,8 @@ KEYS = (
     (Pin.CPU.GPIO13, "2"),
     (Pin.CPU.GPIO14, "3"),
     (Pin.CPU.GPIO15, "4"),
-    (Pin.CPU.GPIO21, "5")
-) # verify with hardware
+    (Pin.CPU.GPIO28, "5")
+) # verify with hardware, layout may change before production
 
 #in this design the only LED is power, power is not connected to a GPIO pin
 
@@ -118,6 +120,8 @@ while True:
                     active_keys.append(key_pressed)
 
         output_keys(keys)
+    motion_data = gyro.get_mpu6050_data(i2c=i2c_gyro)
+    print(motion_data['temp']) #later on i will write more advanced firmware to give the data back to the host computer, but for now it can just be kept.
     time.sleep_ms(REFRESH_TIME)
     
 

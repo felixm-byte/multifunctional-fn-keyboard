@@ -54,4 +54,4 @@ For demonstration only - colour and look will vary based on PCB manufacturing an
 
 # External libraries
 - https://github.com/alastairhm/micropython-st7735/tree/main - SPI TFT with ST7735 Driver library for Raspberry Pi Pico Micropython
-
+- https://how2electronics.com/interfacing-mpu6050-with-raspberry-pi-pico-micropython/ - simple SPI driver for mpu6050 gyroscope
