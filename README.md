@@ -19,8 +19,9 @@ The controller works better without button-caps since the buttons can be directl
 - Refer to [ibom.html](design/bom/ibom.html) for interactive bill of materials 
 - all other parts listed with LCSC part numbers in design/production/bom.csv
 - PCB parts: £14.70 (backorder or JLCPCB idle parts) + £3 (display + screws)
-- 3D printed back case (base.stl)
+- 3D printed parts
 - 4xM3 16mm [(pan-head) screws with nyloc ends](https://www.aliexpress.com/item/1005012276006033.html)
+- I have included a seperate document with links (bom-links.csv) for ease of purchasing, but it is probably best to get all parts except the Pi Pico using the JLCPCB assembly service.
 - Total part cost: ~£18 (excluding PCB production and case 3D printing)
 
 # Renders

@@ -1,0 +1,15 @@
+Item,Link,Per unit price,minimum order quantity
+PCB components*,https://lcsc.com,œ3.19,5
+MPU-6050,https://www.aliexpress.com/item/1005007986741850.html,œ5.31,5
+Pi Pico,https://thepihut.com/products/raspberry-pi-pico,œ3.80,1
+Screw set (M3 16mm needed),https://www.aliexpress.com/item/1005012276006033.html,œ2.91,4
+Total,,œ15.21,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+"* excludes Pi Pico, MPU-6050",,,
