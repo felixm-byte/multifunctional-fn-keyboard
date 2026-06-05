@@ -45,7 +45,7 @@ For demonstration only - colour and look will vary based on PCB manufacturing an
 # PCB assembly
 - If you would prefer not to assemble the PCB by hand, I would recommend using a PCB assembly service, especially for the small parts that can be placed cheaply by this service.
 - I made an effort to minimise the number of parts used that are outside the JLCPCB basic library, so that the model can be assembled affordably using the JLCPCB PCBA service, which charges a US$3 fee per JLCPCB 'extended' part used.
-- Some parts like the Pi Pico itself are irreplaceable so I would recommend soldering them yourself, but you can pay a series of $3 fees to have it fully assembled if that suits you better.
+- Some parts like the Pi Pico itself are non-machine-solderable (JLCPCB charges much extra for them) so I would recommend soldering them yourself, but you can pay the extended manufacturing surcharge and a series of $3 'extended parts' fees to have it fully assembled if that suits you better.
 - Please let me know if there are any JLCPCB basic parts that could be used as substitutes so I can integrate them into the design, but I have looked quite deeply into this so I doubt there are any.
 - I have chosen the B3F-4000 switches because of their much greater number of cycles (3 million vs 100 thousand) which is important for a keyboard that would be used regularly. Feel free to substitute this to suit your usecase.
 
