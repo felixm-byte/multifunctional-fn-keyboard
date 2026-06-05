@@ -20,7 +20,7 @@ The controller works better without button-caps since the buttons can be directl
 - all other parts listed with LCSC part numbers in design/production/bom.csv
 - PCB parts: £14.70 (backorder or JLCPCB idle parts) + £3 (display + screws)
 - 3D printed back case (base.stl)
-- 4xM3 12mm (pan-head) screws with hex nuts (to attach case)
+- 4xM3 16mm [(pan-head) screws with nyloc ends](https://www.aliexpress.com/item/1005012276006033.html)
 - Total part cost: ~£18 (excluding PCB production and case 3D printing)
 
 # Renders
@@ -37,7 +37,7 @@ For demonstration only - colour and look will vary based on PCB manufacturing an
 - Get together all of the parts listed in the parts list (the 3D-printed shell is optional but strongly recommended for safety and comfort).
 - To get all of the parts I will manufacture the PCB using a service like JLCPCB using the Gerber source file (design/gerber.zip), purchase parts using the bom.csv file which can be uploaded directly to LCSC for convenience. It could be more cost-effective to buy a Pi Pico 2 from a local source than LCSC. I would recommend you do something similar.
 - Solder on all parts as shown in diagrams, including the Pi Pico (2) which should be soldered onto the PCB. The soldering should be moderate/medium difficulty, but I have not assembled it yet myself. Alternatively, use a PCB-assembly service like JLCPCB (notes in PCB assembly section).
-- (optional) design/ManufacturedPart.stl is the 3D printing file for the case. 3D print the case and use M3 12mm screws and hex nuts to attach it to the PCB.
+- (optional) design/production/case-(bottom/top).stl are the 3D printing file for the case. 3D print the case in 2 seperate parts and use M3 16mm screws and nyloc nuts to attach it to the PCB, by placing the PCB into the slots in the bottom (larger) part of the case, inserting the screws through from the bottom, placing the top part of the case (which has cross cutouts for the button layouts) above the PCB and using the nyloc part to secure the screws from the top.
 - (optional) Set up a custom .kb mappings file using the setup.py tool, ensure it is named mappings.kb or gamepad_mappings.kb for its use.
 - Install main.py along with required micropython libraries (from external libraries section of readme), and .kb files, to the Pico.
 - Connect to the device via USB. Press one button along with the HELP button to see what a button is mapped to. Hold down the 1,2,3,4&5 buttons simultaneously to switch from gamepad to keyboard mode (this leads to changed latencies for the specific use).
