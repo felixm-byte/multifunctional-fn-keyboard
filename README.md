@@ -8,7 +8,10 @@ Schematic diagram showing the wiring of pins on the Pi Pico.
 
 
 ## Inspiration
-I've always thought a little remappable keyboard would be super useful for input in DIY projects, to easily test USB input, and I love the GameCube controller's middle screen and wanted to design games around it, so I decided to build this project to combine those 2 goals. Once I build the physical model, I will test out multi-key input for deeper shortcuts within apps, to make it also work as a function keyboard. This seemed like an attainable project goal when I started, but it's also a fun product I will enjoy using.
+I've always thought a little remappable keyboard would be super useful for input in DIY projects, to easily test USB input, and I love the GameCube controller's middle screen and wanted to design games around it, so I decided to build this project to combine those 2 goals. Once I build the physical model, I will test out multi-key input for deeper shortcuts within apps, to make it also work as a function keyboard. I also have a built-in accelerometer/gyroscope, which will make for fun features and interactions in games and potentially also for software shortcuts.
+
+# Design note
+The controller works better without button-caps since the buttons can be directly exposed. This means I need one less part and one less supplier, making the design cheaper and simpler, and it is fine to expose buttons directly from the PCB, which is done in products like Hack Club Sprig.
 
 # Parts
 - Display: [ST7735 LCD display from Aliexpress, "1.8 TFT NO TOUCH" version](https://www.aliexpress.com/item/4000219159401.html)
@@ -21,8 +24,8 @@ I've always thought a little remappable keyboard would be super useful for input
 - Total part cost: ~£18 (excluding PCB production and case 3D printing)
 
 # Renders
-![product side render](design/renders/side.png)
-![product render from the top](design/renders/top-down.png)
+![product isomorphic render](design/renders/isomorphic.png)
+![product top-down render](design/renders/topdown.png)
 For demonstration only - colour and look will vary based on PCB manufacturing and colour used.
 
 # Details
@@ -44,7 +47,7 @@ For demonstration only - colour and look will vary based on PCB manufacturing an
 - I made an effort to minimise the number of parts used that are outside the JLCPCB basic library, so that the model can be assembled affordably using the JLCPCB PCBA service, which charges a US$3 fee per JLCPCB 'extended' part used.
 - Some parts like the Pi Pico itself are irreplaceable so I would recommend soldering them yourself, but you can pay a series of $3 fees to have it fully assembled if that suits you better.
 - Please let me know if there are any JLCPCB basic parts that could be used as substitutes so I can integrate them into the design, but I have looked quite deeply into this so I doubt there are any.
-- I have chosen the B3F-4000 switches because of their much larger number of cycles (3 million vs 100 thousand) which is important for a keyboard that would be used regularly. Feel free to substitute this to suit your usecase.
+- I have chosen the B3F-4000 switches because of their much greater number of cycles (3 million vs 100 thousand) which is important for a keyboard that would be used regularly. Feel free to substitute this to suit your usecase.
 
 # References
 - https://www.youtube.com/watch?v=KaGHxvVnKQ4 (1:24 for display pinout explanation)
