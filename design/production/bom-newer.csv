@@ -1,0 +1,14 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,LCSC
+"C1,C2",2,100nF,,,,Capacitor_SMD:C_0402_1005Metric,,C307331
+D1,1,KT-0603R,,,,LED_SMD:LED_0603_1608Metric,,C2286
+J2,1,Conn_01x08_Socket,,,,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,,C27438
+R1,1,47Ω,,,,Resistor_SMD:R_0201_0603Metric,,C23182
+"R2,R3",2,4.7k,,,,Resistor_SMD:R_0603_1608Metric,,C23162
+"S1,S2",2,"Tactile Button, 160gf",,,,PCM_JLCPCB:SW_TS-1088-AR02016,https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf,C720477
+"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13",13,SW_Push,,,,Button_Switch_THT:SW_SPST_Omron_B3F-40xx,,C87494
+U1,1,LSM6DS3,,,,Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y,https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf,C967633
+U2,1,RaspberryPi_Pico,,,,Module:RaspberryPi_Pico_Common_Unspecified,https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf,C41407547
+,,,,,,,,
+Parts:,,,,,,,,
+https://lcsc.com,,,,,,,,
+"Automatically generate an up-to-date price list, considering price fluctuations.",,,,,,,,

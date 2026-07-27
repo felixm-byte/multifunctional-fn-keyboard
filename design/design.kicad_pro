@@ -508,7 +508,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "production/",
+      "plot": "gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -806,7 +806,7 @@
         "uuid": "a7b25eee-c0fb-418f-b0cc-80f21c6b9889"
       }
     ],
-    "used_designators": "GND1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

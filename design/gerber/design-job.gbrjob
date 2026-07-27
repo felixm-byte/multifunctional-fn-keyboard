@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.0"
     },
-    "CreationDate": "2026-06-05T20:16:51+01:00"
+    "CreationDate": "2026-07-27T12:49:20+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "design",
       "GUID": "64657369-676e-42e6-9b69-6361645f7063",
-      "Revision": "2.0.0"
+      "Revision": "2.2.1"
     },
     "Size": {
       "X": 176.55,
