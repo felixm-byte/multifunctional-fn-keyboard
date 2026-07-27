@@ -1,0 +1,25 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Side
+C1,100nF,C_0402_1005Metric,168.62,-91.7,0,top
+C2,100nF,C_0402_1005Metric,168.3,-90.3,90,top
+D1,KT-0603R,LED_0603_1608Metric,152.5,-75.7125,90,top
+J2,Conn_01x08_Socket,PinSocket_1x08_P2.54mm_Vertical,179.12,-115,-90,top
+R1,47Ω,R_0201_0603Metric,154.75,-76.07,90,top
+R2,4.7k,R_0603_1608Metric,153.5,-93.5,-90,top
+R3,4.7k,R_0603_1608Metric,152,-94.5,90,top
+S1,"Tactile Button, 160gf",SW_TS-1088-AR02016,140.5,-113.5,0,top
+S2,"Tactile Button, 160gf",SW_TS-1088-AR02016,146.75,-113.5,0,top
+SW1,SW_Push,SW_SPST_Omron_B3F-40xx,209,-77.75,0,top
+SW2,SW_Push,SW_SPST_Omron_B3F-40xx,193.25,-92.75,0,top
+SW3,SW_Push,SW_SPST_Omron_B3F-40xx,224.75,-92.75,0,top
+SW4,SW_Push,SW_SPST_Omron_B3F-40xx,209,-107.75,0,top
+SW5,SW_Push,SW_SPST_Omron_B3F-40xx,86,-77.75,0,top
+SW6,SW_Push,SW_SPST_Omron_B3F-40xx,70.25,-92.75,0,top
+SW7,SW_Push,SW_SPST_Omron_B3F-40xx,101.75,-92.75,0,top
+SW8,SW_Push,SW_SPST_Omron_B3F-40xx,86,-107.75,0,top
+SW9,SW_Push,SW_SPST_Omron_B3F-40xx,122.25,-137.5,90,top
+SW10,SW_Push,SW_SPST_Omron_B3F-40xx,137.5,-137.5,90,top
+SW11,SW_Push,SW_SPST_Omron_B3F-40xx,152.5,-137.5,90,top
+SW12,SW_Push,SW_SPST_Omron_B3F-40xx,167.5,-137.5,90,top
+SW13,SW_Push,SW_SPST_Omron_B3F-40xx,182.5,-137.5,90,top
+U1,RaspberryPi_Pico,RaspberryPi_Pico_Common_Unspecified,137.75,-84.1,0,top
+U2,LIS2DW12,LGA12R50P4X4_200X200X70,165.7625,-91.7,0,top
